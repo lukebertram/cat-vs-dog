@@ -25,5 +25,8 @@ $(document).ready(function() {
   //cat factory
   $("img#factory").click(function() {
     $("img#factory").after("<img src='img/nyancat.png'>");
-  })
+    $("#factory-div").children("img:nth-child(2)").click(function() {
+      $(this).remove();
+    });
+  });
 });
