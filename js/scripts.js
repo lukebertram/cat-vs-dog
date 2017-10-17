@@ -22,5 +22,8 @@ $(document).ready(function() {
     });
   });
 
-
+  //cat factory
+  $("img#factory").click(function() {
+    $("img#factory").after("<img src='img/nyancat.png'>");
+  })
 });

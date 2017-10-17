@@ -6,7 +6,9 @@ img {
   margin-top: 10px;
 }
 
-#pow {
-  display: flex;
-  
+#factory {
+  width: 200px;
+}
+.col-md-12 img {
+  float: left;
 }
